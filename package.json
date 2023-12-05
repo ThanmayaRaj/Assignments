@@ -1,0 +1,21 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "codeceptjs run --plugins allure"
+  },
+  "author": "",
+  
+  "license": "ISC",
+  "dependencies": {
+    "allure-commandline": "^2.24.1",
+    "codeceptjs": "^3.5.8",
+    "codeceptjs-assert": "^0.0.5",
+    "playwright": "^1.40.1"
+  },
+  "devDependencies": {
+    "@codeceptjs/allure-legacy": "^1.0.2"
+  }
+}
