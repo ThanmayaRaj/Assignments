@@ -1,6 +1,5 @@
 const { I } = inject();
 const { checkForMatchingTag, checkForDuplicateContent } = require("./../commUtils")
-console.log(checkForDuplicateContent)
 
 Given('Launch the website and Select "{word}" under Category with locatore refernce "{word}"', (Category, href) => {
     I.amOnPage("/");

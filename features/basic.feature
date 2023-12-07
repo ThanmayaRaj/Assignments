@@ -1,24 +1,24 @@
 Feature:Test for validating Oranum website
  ###############################*****Requriment -1***###################################
-  Scenario: Searching for partial text should display only matching psychics - "Matt"
+Scenario: Searching for partial text should display only matching psychics - "Matt"
     Given Launch the website and Enter the text on Search bar "Matt"
     When Search the content by pressing enter and validate landing on Search page "Matt"
     Then Garb all the names tags and verify if it contains the searched word "Matt"
 
 
-   Scenario: Searching for partial text should display only matching psychics - "Myst"
+Scenario: Searching for partial text should display only matching psychics - "Myst"
     Given Launch the website and Enter the text on Search bar "Myst"
     When Search the content by pressing enter and validate landing on Search page "Myst"
     Then Garb all the names tags and verify if it contains the searched word "Myst"
 
 
     
-    Scenario: Searching for partial text should display only matching psychics - "Ann"
+Scenario: Searching for partial text should display only matching psychics - "Ann"
     Given Launch the website and Enter the text on Search bar "Ann"
     When Search the content by pressing enter and validate landing on Search page "Ann"
     Then Garb all the names tags and verify if it contains the searched word "Ann"
 
-  Scenario: Searching for partial text should display only matching psychics - "psy"
+Scenario: Searching for partial text should display only matching psychics - "psy"
    Given Launch the website and Enter the text on Search bar "psy"
     When Search the content by pressing enter and validate landing on Search page "psy"
      Then Garb all the names tags and verify if it contains the searched word "psy"
@@ -26,7 +26,7 @@ Feature:Test for validating Oranum website
  
 ###############################*****Requriment -2***###################################  
 
- Scenario: Live Psychic buttons validation - Add to favorites button
+Scenario: Live Psychic buttons validation - Add to favorites button
      Given Launch the website and click on Live Psychic page
      When User Clicks on live psychic - Add to favorites button
      Then Verify that sign up page is displayed for Get credits and Add favorite
@@ -47,16 +47,15 @@ Scenario: Live Psychic buttons validation - verify Surprise button Daimond
      When User Clicks on live psychic - "surprise-OranumSurprisesDiamond_LJ" button with "div" locator
      Then Verify signup overLay is displayed  
 	 
-	 Scenario: Live Psychic buttons validation - verify Get coins buttons
+Scenario: Live Psychic buttons validation - verify Get coins buttons
      Given Launch the website and click on Live Psychic page
      When User Clicks on live psychic - "buyCreditsBottom" button with "div" locator
      Then Verify signup overLay is displayed          
 
-	 Scenario: Live Psychic buttons validation - verify Start Private session.
- 
- Given Launch the website and click on Live Psychic page
-  When User Clicks on live psychic - "smallStartPrivateButton" button with "button" locator
-    Then Verify signup overLay is displayed  
+Scenario: Live Psychic buttons validation - verify Start Private session.
+     Given Launch the website and click on Live Psychic page
+     When User Clicks on live psychic - "smallStartPrivateButton" button with "button" locator
+     Then Verify signup overLay is displayed  
 	 
 	 
 	 
@@ -64,14 +63,14 @@ Scenario: Live Psychic buttons validation - verify Surprise button Daimond
 	 ###############################*****Requriment -3***###################################
 
 Scenario: Validate diffent categories - Astrology.
- Given Launch the website and Select "Astrology" under Category with locatore refernce "/en/experts/astrology?selectedFilters=1"
-  Then Garb all the Category tags and verify if it contains the "Astrology"
-   Then Garb all the Names and verify if it contains the does not contain duplicates
+     Given Launch the website and Select "Astrology" under Category with locatore refernce "/en/experts/astrology?selectedFilters=1"
+     Then Garb all the Category tags and verify if it contains the "Astrology"
+     Then Garb all the Names and verify if it contains the does not contain duplicates
 
 Scenario: Validate diffent categories - Tarot.
-  Given Launch the website and Select "Tarot" under Category with locatore refernce "/en/experts/tarot?selectedFilters=2"
-   Then Garb all the Category tags and verify if it contains the "Tarot"
-    Then Garb all the Names and verify if it contains the does not contain duplicates  
+     Given Launch the website and Select "Tarot" under Category with locatore refernce "/en/experts/tarot?selectedFilters=2"
+     Then Garb all the Category tags and verify if it contains the "Tarot"
+     Then Garb all the Names and verify if it contains the does not contain duplicates  
 
 Scenario: Validate diffent categories - Clairvoyance.
      Given Launch the website and Select "Clairvoyance" under Category with locatore refernce "/en/experts/clairvoyance?selectedFilters=3"

@@ -1,6 +1,4 @@
 const checkForMatchingTag = async (I) => {
-
-   
     let elements = locate("div .thumb-data-willingness-list");
     I.waitForElement(elements, 20);
     const allTags = await I.grabTextFromAll(elements);
@@ -20,7 +18,7 @@ const checkForMatchingTag = async (I) => {
 
 }
 
-const checkForDuplicateContent= async (I) => {
+const checkForDuplicateContent = async (I) => {
     const elementsDup = locate("div .thumb-data-item--name");
     const allPsychicNames = await I.grabTextFromAll(elementsDup);
     var set = new Set(allPsychicNames);
@@ -31,58 +29,49 @@ const checkForDuplicateContent= async (I) => {
 
 
 const ValidateThumbNails = async (I, searchText, thumbnailLocator) => {
-
-    //div .thumb-data-item--name
     const elements = locate(thumbnailLocator);
     const allNames = await I.grabTextFromAll(elements);
     let isValidResults = true;
-  
     for (let i = 0; i < allNames.length; i++) {
-      if (
-        !!allNames[i] &&
-        !allNames[i].toLowerCase().includes(searchText.toLowerCase())
-      ) {
-        isValidResults = false;
-        break;
-      }
+        if (
+            !!allNames[i] &&
+            !allNames[i].toLowerCase().includes(searchText.toLowerCase())
+        ) {
+            isValidResults = false;
+            break;
+        }
     }
     I.assert(isValidResults, true);
-  }
+}
 
-
-  const clickOnLivePsychic = (I) => {
+const clickOnLivePsychic = (I) => {
     I.amOnPage("https://oranum.com/en/chat");
     const element = locate("div .status-text--live").withText("Live").first();
     I.click(element);
 };
 
-
 const GetButtonAndClick = (I, buttonLocater, Identifier) => {
-
     const element = locate(Identifier)
         .withAttr({ "data-testid": buttonLocater })
         .first();
     I.waitForElement(element, 20);
-
     I.click(element);
-
 }
 
-const VerifySignUpOverLay = (I) =>{
+const VerifySignUpOverLay = (I) => {
     const signUpOverlay = locate("div")
         .withAttr({ "data-testid": "mainLoginSignUpOverlayApplet" })
         .first();
-
     I.waitForElement(signUpOverlay, 20);
     I.see('Join Now')
 }
 
 module.exports = {
-    ValidateThumbNails, 
+    ValidateThumbNails,
     checkForMatchingTag,
     checkForDuplicateContent,
     clickOnLivePsychic,
     VerifySignUpOverLay,
     GetButtonAndClick
-    
+
 }

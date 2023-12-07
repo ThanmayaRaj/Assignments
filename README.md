@@ -18,7 +18,8 @@ To see reports, run:
 allure serve output
 
 
-Docker:
+Docker: 
+#I am using Windows OS
 
 To Build docker image:
 docker build -t codeceptjs-tests .
@@ -28,5 +29,3 @@ To run docker image:
 docker run codeceptjs-tests
 
 
-To see all docker images:
-docker image ls
