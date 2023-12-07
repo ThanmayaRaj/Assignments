@@ -1,31 +1,31 @@
 # Assignments
 
-Prerequisites : 
-Install Node version 14+
+*Prerequisites : 
+    Install Node version 14+
 
-To install dependencies run following commands:
-npm install
-npx playwright install
-
-
-To run tests:
-npm test
-or
-npx codeceptjs run --plugins allure
+*To install dependencies run following commands:
+    1. npm install
+    2. npx playwright install
 
 
-To see reports, run:
-allure serve output
+*To run tests:
+    npm test
+    or
+    npx codeceptjs run --plugins allure
 
 
-Docker: 
+*To see reports, run:
+    allure serve output
+
+
+################___Docker____############: 
 #I am using Windows OS
 
-To Build docker image:
-docker build -t codeceptjs-tests .
+*To BUILD docker image:
+    docker build -t codeceptjs-tests .
 
-To run docker image:
+*To RUN docker image:
+    docker run codeceptjs-tests
 
-docker run codeceptjs-tests
-
+#Attaching Report screenschot with the file name : Report.dox
 
