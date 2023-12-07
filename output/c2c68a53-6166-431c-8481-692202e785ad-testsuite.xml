@@ -1,0 +1,1669 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701771569666' stop='1701771762274'>
+    <name>Test for validating Oranum website</name>
+    <title>Test for validating Oranum website</title>
+    <test-cases>
+        <test-case start='1701771570763' status='passed' stop='1701771586185'>
+            <name>Searching for partial text should display only matching psychics - "Matt"</name>
+            <title>Searching for partial text should display only matching psychics - "Matt"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1701771573782' status='passed' stop='1701771583406'>
+                    <name>Given Launch the website and Enter the text on Search bar "Matt" ""</name>
+                    <title>Given Launch the website and Enter the text on Search bar "Matt" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771573782' status='passed' stop='1701771583029'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771583030' status='passed' stop='1701771583405'>
+                            <name>I fill field "searchText", "Matt"</name>
+                            <title>I fill field "searchText", "Matt"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771583406' status='passed' stop='1701771584667'>
+                    <name>When Search the content by pressing enter and validate landing on Search page "Matt" ""</name>
+                    <title>When Search the content by pressing enter and validate landing on Search page "Matt" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771583407' status='passed' stop='1701771583639'>
+                            <name>I press key "Enter"</name>
+                            <title>I press key "Enter"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771583639' status='passed' stop='1701771584666'>
+                            <name>I wait for url "https://www.oranum.com/en/experts/Matt"</name>
+                            <title>I wait for url "https://www.oranum.com/en/experts/Matt"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771584667' status='passed' stop='1701771586185'>
+                    <name>Then Garb all the names tags and verify if it contains the searched word "Matt" ""</name>
+                    <title>Then Garb all the names tags and verify if it contains the searched word "Matt" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771584667' status='passed' stop='1701771585115'>
+                            <name>I grab text from all div .thumb-data-item--name</name>
+                            <title>I grab text from all div .thumb-data-item--name</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771585115' status='passed' stop='1701771586058'>
+                            <name>I grab number of visible elements div .thumb-data-item--name</name>
+                            <title>I grab number of visible elements div .thumb-data-item--name</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771586060' status='passed' stop='1701771586184'>
+                            <name>I grab text from all div .thumb-data-item--name</name>
+                            <title>I grab text from all div .thumb-data-item--name</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771586186' status='passed' stop='1701771586186'>
+                    <name>I assert true, true</name>
+                    <title>I assert true, true</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1701771586291' status='passed' stop='1701771594993'>
+            <name>Searching for partial text should display only matching psychics - "Myst"</name>
+            <title>Searching for partial text should display only matching psychics - "Myst"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1701771587113' status='passed' stop='1701771591422'>
+                    <name>Given Launch the website and Enter the text on Search bar "Myst" ""</name>
+                    <title>Given Launch the website and Enter the text on Search bar "Myst" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771587113' status='passed' stop='1701771591002'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771591002' status='passed' stop='1701771591422'>
+                            <name>I fill field "searchText", "Myst"</name>
+                            <title>I fill field "searchText", "Myst"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771591422' status='passed' stop='1701771593219'>
+                    <name>When Search the content by pressing enter and validate landing on Search page "Myst" ""</name>
+                    <title>When Search the content by pressing enter and validate landing on Search page "Myst" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771591422' status='passed' stop='1701771591642'>
+                            <name>I press key "Enter"</name>
+                            <title>I press key "Enter"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771591642' status='passed' stop='1701771593219'>
+                            <name>I wait for url "https://www.oranum.com/en/experts/Myst"</name>
+                            <title>I wait for url "https://www.oranum.com/en/experts/Myst"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771593219' status='passed' stop='1701771594993'>
+                    <name>Then Garb all the names tags and verify if it contains the searched word "Myst" ""</name>
+                    <title>Then Garb all the names tags and verify if it contains the searched word "Myst" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771593219' status='passed' stop='1701771594335'>
+                            <name>I grab text from all div .thumb-data-item--name</name>
+                            <title>I grab text from all div .thumb-data-item--name</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771594335' status='passed' stop='1701771594614'>
+                            <name>I grab number of visible elements div .thumb-data-item--name</name>
+                            <title>I grab number of visible elements div .thumb-data-item--name</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771594615' status='passed' stop='1701771594993'>
+                            <name>I grab text from all div .thumb-data-item--name</name>
+                            <title>I grab text from all div .thumb-data-item--name</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771594994' status='passed' stop='1701771594995'>
+                    <name>I assert true, true</name>
+                    <title>I assert true, true</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1701771595013' status='passed' stop='1701771602222'>
+            <name>Searching for partial text should display only matching psychics - "Ann"</name>
+            <title>Searching for partial text should display only matching psychics - "Ann"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1701771595448' status='passed' stop='1701771599309'>
+                    <name>Given Launch the website and Enter the text on Search bar "Ann" ""</name>
+                    <title>Given Launch the website and Enter the text on Search bar "Ann" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771595448' status='passed' stop='1701771598888'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771598888' status='passed' stop='1701771599308'>
+                            <name>I fill field "searchText", "Ann"</name>
+                            <title>I fill field "searchText", "Ann"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771599309' status='passed' stop='1701771600594'>
+                    <name>When Search the content by pressing enter and validate landing on Search page "Ann" ""</name>
+                    <title>When Search the content by pressing enter and validate landing on Search page "Ann" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771599309' status='passed' stop='1701771599449'>
+                            <name>I press key "Enter"</name>
+                            <title>I press key "Enter"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771599449' status='passed' stop='1701771600594'>
+                            <name>I wait for url "https://www.oranum.com/en/experts/Ann"</name>
+                            <title>I wait for url "https://www.oranum.com/en/experts/Ann"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771600594' status='passed' stop='1701771602222'>
+                    <name>Then Garb all the names tags and verify if it contains the searched word "Ann" ""</name>
+                    <title>Then Garb all the names tags and verify if it contains the searched word "Ann" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771600594' status='passed' stop='1701771601720'>
+                            <name>I grab text from all div .thumb-data-item--name</name>
+                            <title>I grab text from all div .thumb-data-item--name</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771601720' status='passed' stop='1701771601914'>
+                            <name>I grab number of visible elements div .thumb-data-item--name</name>
+                            <title>I grab number of visible elements div .thumb-data-item--name</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771601915' status='passed' stop='1701771602222'>
+                            <name>I grab text from all div .thumb-data-item--name</name>
+                            <title>I grab text from all div .thumb-data-item--name</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771602223' status='passed' stop='1701771602223'>
+                    <name>I assert true, true</name>
+                    <title>I assert true, true</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1701771602247' status='passed' stop='1701771610072'>
+            <name>Searching for partial text should display only matching psychics - "psy"</name>
+            <title>Searching for partial text should display only matching psychics - "psy"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1701771602672' status='passed' stop='1701771606416'>
+                    <name>Given Launch the website and Enter the text on Search bar "psy" ""</name>
+                    <title>Given Launch the website and Enter the text on Search bar "psy" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771602672' status='passed' stop='1701771606043'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771606043' status='passed' stop='1701771606416'>
+                            <name>I fill field "searchText", "psy"</name>
+                            <title>I fill field "searchText", "psy"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771606416' status='passed' stop='1701771608189'>
+                    <name>When Search the content by pressing enter and validate landing on Search page "psy" ""</name>
+                    <title>When Search the content by pressing enter and validate landing on Search page "psy" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771606416' status='passed' stop='1701771606619'>
+                            <name>I press key "Enter"</name>
+                            <title>I press key "Enter"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771606619' status='passed' stop='1701771608189'>
+                            <name>I wait for url "https://www.oranum.com/en/experts/psy"</name>
+                            <title>I wait for url "https://www.oranum.com/en/experts/psy"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771608189' status='passed' stop='1701771610071'>
+                    <name>Then Garb all the names tags and verify if it contains the searched word "psy" ""</name>
+                    <title>Then Garb all the names tags and verify if it contains the searched word "psy" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771608189' status='passed' stop='1701771609238'>
+                            <name>I grab text from all div .thumb-data-item--name</name>
+                            <title>I grab text from all div .thumb-data-item--name</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771609238' status='passed' stop='1701771609515'>
+                            <name>I grab number of visible elements div .thumb-data-item--name</name>
+                            <title>I grab number of visible elements div .thumb-data-item--name</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771609517' status='passed' stop='1701771610071'>
+                            <name>I grab text from all div .thumb-data-item--name</name>
+                            <title>I grab text from all div .thumb-data-item--name</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771610072' status='passed' stop='1701771610072'>
+                    <name>I assert true, true</name>
+                    <title>I assert true, true</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1701771610101' status='passed' stop='1701771617871'>
+            <name>Live Psychic buttons validation - Add to favorites button</name>
+            <title>Live Psychic buttons validation - Add to favorites button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1701771610535' status='passed' stop='1701771616916'>
+                    <name>Given Launch the website and click on Live Psychic page ""</name>
+                    <title>Given Launch the website and click on Live Psychic page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771610535' status='passed' stop='1701771613821'>
+                            <name>I am on page "https://oranum.com/en/chat"</name>
+                            <title>I am on page "https://oranum.com/en/chat"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771613821' status='passed' stop='1701771614847'>
+                            <name>I click {xpath: (.//div//*[contains(concat(' ', normalize-space(./@class), ' '), ' status-text--live ')][contains(., 'Live')])[position()=1]}</name>
+                            <title>I click {xpath: (.//div//*[contains(concat(' ', normalize-space(./@class), ' '), ' status-text--live ')][contains(., 'Live')])[position()=1]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771614848' status='passed' stop='1701771616915'>
+                            <name>I wait for navigation </name>
+                            <title>I wait for navigation </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771616916' status='passed' stop='1701771617845'>
+                    <name>When User Clicks on live psychic - Add to favorites button ""</name>
+                    <title>When User Clicks on live psychic - Add to favorites button ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771616916' status='passed' stop='1701771617845'>
+                            <name>I click {xpath: (.//a[@href = '/en/favorite'])[position()=1]}</name>
+                            <title>I click {xpath: (.//a[@href = '/en/favorite'])[position()=1]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771617845' status='passed' stop='1701771617871'>
+                    <name>Then Verify that sign up page is displayed for Get credits and Add favorite ""</name>
+                    <title>Then Verify that sign up page is displayed for Get credits and Add favorite ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771617845' status='passed' stop='1701771617848'>
+                            <name>I wait for url "https://www.oranum.com/en/auth/sign-up"</name>
+                            <title>I wait for url "https://www.oranum.com/en/auth/sign-up"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771617848' status='passed' stop='1701771617871'>
+                            <name>I see "Join Now!"</name>
+                            <title>I see "Join Now!"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1701771617899' status='passed' stop='1701771625664'>
+            <name>Live Psychic buttons validation - Get credits button</name>
+            <title>Live Psychic buttons validation - Get credits button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1701771618317' status='passed' stop='1701771624806'>
+                    <name>Given Launch the website and click on Live Psychic page ""</name>
+                    <title>Given Launch the website and click on Live Psychic page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771618317' status='passed' stop='1701771622004'>
+                            <name>I am on page "https://oranum.com/en/chat"</name>
+                            <title>I am on page "https://oranum.com/en/chat"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771622004' status='passed' stop='1701771622673'>
+                            <name>I click {xpath: (.//div//*[contains(concat(' ', normalize-space(./@class), ' '), ' status-text--live ')][contains(., 'Live')])[position()=1]}</name>
+                            <title>I click {xpath: (.//div//*[contains(concat(' ', normalize-space(./@class), ' '), ' status-text--live ')][contains(., 'Live')])[position()=1]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771622673' status='passed' stop='1701771624806'>
+                            <name>I wait for navigation </name>
+                            <title>I wait for navigation </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771624806' status='passed' stop='1701771625641'>
+                    <name>When User Clicks on live psychic - Get Credits button ""</name>
+                    <title>When User Clicks on live psychic - Get Credits button ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771624806' status='passed' stop='1701771625641'>
+                            <name>I click {xpath: (.//a[contains(., 'Get Credits')])[position()=1]}</name>
+                            <title>I click {xpath: (.//a[contains(., 'Get Credits')])[position()=1]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771625641' status='passed' stop='1701771625664'>
+                    <name>Then Verify that sign up page is displayed for Get credits and Add favorite ""</name>
+                    <title>Then Verify that sign up page is displayed for Get credits and Add favorite ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771625641' status='passed' stop='1701771625642'>
+                            <name>I wait for url "https://www.oranum.com/en/auth/sign-up"</name>
+                            <title>I wait for url "https://www.oranum.com/en/auth/sign-up"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771625642' status='passed' stop='1701771625664'>
+                            <name>I see "Join Now!"</name>
+                            <title>I see "Join Now!"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1701771625709' status='passed' stop='1701771634091'>
+            <name>Live Psychic buttons validation - verify suprise globe button</name>
+            <title>Live Psychic buttons validation - verify suprise globe button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1701771626082' status='passed' stop='1701771633323'>
+                    <name>Given Launch the website and click on Live Psychic page ""</name>
+                    <title>Given Launch the website and click on Live Psychic page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771626082' status='passed' stop='1701771629746'>
+                            <name>I am on page "https://oranum.com/en/chat"</name>
+                            <title>I am on page "https://oranum.com/en/chat"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771629746' status='passed' stop='1701771630416'>
+                            <name>I click {xpath: (.//div//*[contains(concat(' ', normalize-space(./@class), ' '), ' status-text--live ')][contains(., 'Live')])[position()=1]}</name>
+                            <title>I click {xpath: (.//div//*[contains(concat(' ', normalize-space(./@class), ' '), ' status-text--live ')][contains(., 'Live')])[position()=1]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771630416' status='passed' stop='1701771633323'>
+                            <name>I wait for navigation </name>
+                            <title>I wait for navigation </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771633323' status='passed' stop='1701771634071'>
+                    <name>When User Clicks on live psychic - "surprise-OranumSurprisesGlobe_LJ" button with "div" locator ""</name>
+                    <title>When User Clicks on live psychic - "surprise-OranumSurprisesGlobe_LJ" button with "div" locator ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771633323' status='passed' stop='1701771633516'>
+                            <name>I wait for element {xpath: (.//div[@data-testid = 'surprise-OranumSurprisesGlobe_LJ'])[position()=1]}, 20</name>
+                            <title>I wait for element {xpath: (.//div[@data-testid = 'surprise-OranumSurprisesGlobe_LJ'])[position()=1]}, 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771633516' status='passed' stop='1701771634071'>
+                            <name>I click {xpath: (.//div[@data-testid = 'surprise-OranumSurprisesGlobe_LJ'])[position()=1]}</name>
+                            <title>I click {xpath: (.//div[@data-testid = 'surprise-OranumSurprisesGlobe_LJ'])[position()=1]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771634071' status='passed' stop='1701771634091'>
+                    <name>Then Verify signup overLay is displayed ""</name>
+                    <title>Then Verify signup overLay is displayed ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771634071' status='passed' stop='1701771634081'>
+                            <name>I wait for element {xpath: (.//div[@data-testid = 'mainLoginSignUpOverlayApplet'])[position()=1]}, 20</name>
+                            <title>I wait for element {xpath: (.//div[@data-testid = 'mainLoginSignUpOverlayApplet'])[position()=1]}, 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771634081' status='passed' stop='1701771634091'>
+                            <name>I see "Join Now"</name>
+                            <title>I see "Join Now"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1701771634111' status='passed' stop='1701771641983'>
+            <name>Live Psychic buttons validation - verify Surprise button Daimond</name>
+            <title>Live Psychic buttons validation - verify Surprise button Daimond</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1701771634529' status='passed' stop='1701771641189'>
+                    <name>Given Launch the website and click on Live Psychic page ""</name>
+                    <title>Given Launch the website and click on Live Psychic page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771634529' status='passed' stop='1701771638130'>
+                            <name>I am on page "https://oranum.com/en/chat"</name>
+                            <title>I am on page "https://oranum.com/en/chat"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771638131' status='passed' stop='1701771638768'>
+                            <name>I click {xpath: (.//div//*[contains(concat(' ', normalize-space(./@class), ' '), ' status-text--live ')][contains(., 'Live')])[position()=1]}</name>
+                            <title>I click {xpath: (.//div//*[contains(concat(' ', normalize-space(./@class), ' '), ' status-text--live ')][contains(., 'Live')])[position()=1]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771638768' status='passed' stop='1701771641188'>
+                            <name>I wait for navigation </name>
+                            <title>I wait for navigation </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771641189' status='passed' stop='1701771641969'>
+                    <name>When User Clicks on live psychic - "surprise-OranumSurprisesDiamond_LJ" button with "div" locator ""</name>
+                    <title>When User Clicks on live psychic - "surprise-OranumSurprisesDiamond_LJ" button with "div" locator ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771641189' status='passed' stop='1701771641539'>
+                            <name>I wait for element {xpath: (.//div[@data-testid = 'surprise-OranumSurprisesDiamond_LJ'])[position()=1]}, 20</name>
+                            <title>I wait for element {xpath: (.//div[@data-testid = 'surprise-OranumSurprisesDiamond_LJ'])[position()=1]}, 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771641539' status='passed' stop='1701771641968'>
+                            <name>I click {xpath: (.//div[@data-testid = 'surprise-OranumSurprisesDiamond_LJ'])[position()=1]}</name>
+                            <title>I click {xpath: (.//div[@data-testid = 'surprise-OranumSurprisesDiamond_LJ'])[position()=1]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771641969' status='passed' stop='1701771641983'>
+                    <name>Then Verify signup overLay is displayed ""</name>
+                    <title>Then Verify signup overLay is displayed ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771641969' status='passed' stop='1701771641975'>
+                            <name>I wait for element {xpath: (.//div[@data-testid = 'mainLoginSignUpOverlayApplet'])[position()=1]}, 20</name>
+                            <title>I wait for element {xpath: (.//div[@data-testid = 'mainLoginSignUpOverlayApplet'])[position()=1]}, 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771641975' status='passed' stop='1701771641983'>
+                            <name>I see "Join Now"</name>
+                            <title>I see "Join Now"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1701771642007' status='passed' stop='1701771650542'>
+            <name>Live Psychic buttons validation - verify Get coins buttons</name>
+            <title>Live Psychic buttons validation - verify Get coins buttons</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1701771642438' status='passed' stop='1701771650008'>
+                    <name>Given Launch the website and click on Live Psychic page ""</name>
+                    <title>Given Launch the website and click on Live Psychic page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771642438' status='passed' stop='1701771646824'>
+                            <name>I am on page "https://oranum.com/en/chat"</name>
+                            <title>I am on page "https://oranum.com/en/chat"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771646824' status='passed' stop='1701771647470'>
+                            <name>I click {xpath: (.//div//*[contains(concat(' ', normalize-space(./@class), ' '), ' status-text--live ')][contains(., 'Live')])[position()=1]}</name>
+                            <title>I click {xpath: (.//div//*[contains(concat(' ', normalize-space(./@class), ' '), ' status-text--live ')][contains(., 'Live')])[position()=1]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771647470' status='passed' stop='1701771650008'>
+                            <name>I wait for navigation </name>
+                            <title>I wait for navigation </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771650008' status='passed' stop='1701771650521'>
+                    <name>When User Clicks on live psychic - "buyCreditsBottom" button with "div" locator ""</name>
+                    <title>When User Clicks on live psychic - "buyCreditsBottom" button with "div" locator ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771650008' status='passed' stop='1701771650072'>
+                            <name>I wait for element {xpath: (.//div[@data-testid = 'buyCreditsBottom'])[position()=1]}, 20</name>
+                            <title>I wait for element {xpath: (.//div[@data-testid = 'buyCreditsBottom'])[position()=1]}, 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771650072' status='passed' stop='1701771650521'>
+                            <name>I click {xpath: (.//div[@data-testid = 'buyCreditsBottom'])[position()=1]}</name>
+                            <title>I click {xpath: (.//div[@data-testid = 'buyCreditsBottom'])[position()=1]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771650521' status='passed' stop='1701771650542'>
+                    <name>Then Verify signup overLay is displayed ""</name>
+                    <title>Then Verify signup overLay is displayed ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771650521' status='passed' stop='1701771650531'>
+                            <name>I wait for element {xpath: (.//div[@data-testid = 'mainLoginSignUpOverlayApplet'])[position()=1]}, 20</name>
+                            <title>I wait for element {xpath: (.//div[@data-testid = 'mainLoginSignUpOverlayApplet'])[position()=1]}, 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771650531' status='passed' stop='1701771650542'>
+                            <name>I see "Join Now"</name>
+                            <title>I see "Join Now"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1701771650569' status='passed' stop='1701771658593'>
+            <name>Live Psychic buttons validation - verify Start Private session.</name>
+            <title>Live Psychic buttons validation - verify Start Private session.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1701771650987' status='passed' stop='1701771657938'>
+                    <name>Given Launch the website and click on Live Psychic page ""</name>
+                    <title>Given Launch the website and click on Live Psychic page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771650987' status='passed' stop='1701771654671'>
+                            <name>I am on page "https://oranum.com/en/chat"</name>
+                            <title>I am on page "https://oranum.com/en/chat"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771654671' status='passed' stop='1701771655467'>
+                            <name>I click {xpath: (.//div//*[contains(concat(' ', normalize-space(./@class), ' '), ' status-text--live ')][contains(., 'Live')])[position()=1]}</name>
+                            <title>I click {xpath: (.//div//*[contains(concat(' ', normalize-space(./@class), ' '), ' status-text--live ')][contains(., 'Live')])[position()=1]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771655467' status='passed' stop='1701771657938'>
+                            <name>I wait for navigation </name>
+                            <title>I wait for navigation </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771657938' status='passed' stop='1701771658523'>
+                    <name>When User Clicks on live psychic - "smallStartPrivateButton" button with "button" locator ""</name>
+                    <title>When User Clicks on live psychic - "smallStartPrivateButton" button with "button" locator ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771657938' status='passed' stop='1701771658129'>
+                            <name>I wait for element {xpath: (.//button[@data-testid = 'smallStartPrivateButton'])[position()=1]}, 20</name>
+                            <title>I wait for element {xpath: (.//button[@data-testid = 'smallStartPrivateButton'])[position()=1]}, 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771658129' status='passed' stop='1701771658523'>
+                            <name>I click {xpath: (.//button[@data-testid = 'smallStartPrivateButton'])[position()=1]}</name>
+                            <title>I click {xpath: (.//button[@data-testid = 'smallStartPrivateButton'])[position()=1]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771658523' status='passed' stop='1701771658593'>
+                    <name>Then Verify signup overLay is displayed ""</name>
+                    <title>Then Verify signup overLay is displayed ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771658524' status='passed' stop='1701771658533'>
+                            <name>I wait for element {xpath: (.//div[@data-testid = 'mainLoginSignUpOverlayApplet'])[position()=1]}, 20</name>
+                            <title>I wait for element {xpath: (.//div[@data-testid = 'mainLoginSignUpOverlayApplet'])[position()=1]}, 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771658533' status='passed' stop='1701771658593'>
+                            <name>I see "Join Now"</name>
+                            <title>I see "Join Now"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1701771658619' status='passed' stop='1701771666792'>
+            <name>Validate diffent categories - Astrology.</name>
+            <title>Validate diffent categories - Astrology.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1701771659043' status='passed' stop='1701771665838'>
+                    <name>Given Launch the website and Select "Astrology" under Category with locatore refernce "/en/experts/astrology?selectedFilters=1" ""</name>
+                    <title>Given Launch the website and Select "Astrology" under Category with locatore refernce "/en/experts/astrology?selectedFilters=1" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771659043' status='passed' stop='1701771662687'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771662687' status='passed' stop='1701771663566'>
+                            <name>I click {xpath: (.//a[@href = '/en/experts/astrology?selectedFilters=1'])[position()=1]}</name>
+                            <title>I click {xpath: (.//a[@href = '/en/experts/astrology?selectedFilters=1'])[position()=1]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771663566' status='passed' stop='1701771665838'>
+                            <name>I wait for url "https://www.oranum.com/en/experts/astrology?selectedFilters=1"</name>
+                            <title>I wait for url "https://www.oranum.com/en/experts/astrology?selectedFilters=1"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771665838' status='passed' stop='1701771666500'>
+                    <name>Then Garb all the Category tags and verify if it contains the "Astrology" ""</name>
+                    <title>Then Garb all the Category tags and verify if it contains the "Astrology" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771665838' status='passed' stop='1701771665915'>
+                            <name>I wait for element div .thumb-data-willingness-list, 20</name>
+                            <title>I wait for element div .thumb-data-willingness-list, 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771665915' status='passed' stop='1701771666493'>
+                            <name>I grab text from all div .thumb-data-willingness-list</name>
+                            <title>I grab text from all div .thumb-data-willingness-list</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771666500' status='passed' stop='1701771666792'>
+                    <name>Then Garb all the Names and verify if it contains the does not contain duplicates ""</name>
+                    <title>Then Garb all the Names and verify if it contains the does not contain duplicates ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771666500' status='passed' stop='1701771666791'>
+                            <name>I grab text from all div .thumb-data-item--name</name>
+                            <title>I grab text from all div .thumb-data-item--name</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771666793' status='passed' stop='1701771666793'>
+                    <name>I assert true, true, "Duplicate Tag found"</name>
+                    <title>I assert true, true, "Duplicate Tag found"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1701771666820' status='passed' stop='1701771675263'>
+            <name>Validate diffent categories - Tarot.</name>
+            <title>Validate diffent categories - Tarot.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1701771667218' status='passed' stop='1701771673970'>
+                    <name>Given Launch the website and Select "Tarot" under Category with locatore refernce "/en/experts/tarot?selectedFilters=2" ""</name>
+                    <title>Given Launch the website and Select "Tarot" under Category with locatore refernce "/en/experts/tarot?selectedFilters=2" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771667218' status='passed' stop='1701771670892'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771670892' status='passed' stop='1701771671946'>
+                            <name>I click {xpath: (.//a[@href = '/en/experts/tarot?selectedFilters=2'])[position()=1]}</name>
+                            <title>I click {xpath: (.//a[@href = '/en/experts/tarot?selectedFilters=2'])[position()=1]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771671946' status='passed' stop='1701771673970'>
+                            <name>I wait for url "https://www.oranum.com/en/experts/tarot?selectedFilters=2"</name>
+                            <title>I wait for url "https://www.oranum.com/en/experts/tarot?selectedFilters=2"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771673970' status='passed' stop='1701771674884'>
+                    <name>Then Garb all the Category tags and verify if it contains the "Tarot" ""</name>
+                    <title>Then Garb all the Category tags and verify if it contains the "Tarot" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771673970' status='passed' stop='1701771674198'>
+                            <name>I wait for element div .thumb-data-willingness-list, 20</name>
+                            <title>I wait for element div .thumb-data-willingness-list, 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771674198' status='passed' stop='1701771674879'>
+                            <name>I grab text from all div .thumb-data-willingness-list</name>
+                            <title>I grab text from all div .thumb-data-willingness-list</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771674884' status='passed' stop='1701771675263'>
+                    <name>Then Garb all the Names and verify if it contains the does not contain duplicates ""</name>
+                    <title>Then Garb all the Names and verify if it contains the does not contain duplicates ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771674884' status='passed' stop='1701771675262'>
+                            <name>I grab text from all div .thumb-data-item--name</name>
+                            <title>I grab text from all div .thumb-data-item--name</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771675264' status='passed' stop='1701771675264'>
+                    <name>I assert true, true, "Duplicate Tag found"</name>
+                    <title>I assert true, true, "Duplicate Tag found"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1701771675283' status='passed' stop='1701771683919'>
+            <name>Validate diffent categories - Clairvoyance.</name>
+            <title>Validate diffent categories - Clairvoyance.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1701771675948' status='passed' stop='1701771682306'>
+                    <name>Given Launch the website and Select "Clairvoyance" under Category with locatore refernce "/en/experts/clairvoyance?selectedFilters=3" ""</name>
+                    <title>Given Launch the website and Select "Clairvoyance" under Category with locatore refernce "/en/experts/clairvoyance?selectedFilters=3" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771675948' status='passed' stop='1701771679746'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771679746' status='passed' stop='1701771680653'>
+                            <name>I click {xpath: (.//a[@href = '/en/experts/clairvoyance?selectedFilters=3'])[position()=1]}</name>
+                            <title>I click {xpath: (.//a[@href = '/en/experts/clairvoyance?selectedFilters=3'])[position()=1]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771680654' status='passed' stop='1701771682306'>
+                            <name>I wait for url "https://www.oranum.com/en/experts/clairvoyance?selectedFilters=3"</name>
+                            <title>I wait for url "https://www.oranum.com/en/experts/clairvoyance?selectedFilters=3"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771682306' status='passed' stop='1701771683548'>
+                    <name>Then Garb all the Category tags and verify if it contains the "Clairvoyance" ""</name>
+                    <title>Then Garb all the Category tags and verify if it contains the "Clairvoyance" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771682306' status='passed' stop='1701771682686'>
+                            <name>I wait for element div .thumb-data-willingness-list, 20</name>
+                            <title>I wait for element div .thumb-data-willingness-list, 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771682686' status='passed' stop='1701771683542'>
+                            <name>I grab text from all div .thumb-data-willingness-list</name>
+                            <title>I grab text from all div .thumb-data-willingness-list</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771683548' status='passed' stop='1701771683919'>
+                    <name>Then Garb all the Names and verify if it contains the does not contain duplicates ""</name>
+                    <title>Then Garb all the Names and verify if it contains the does not contain duplicates ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771683548' status='passed' stop='1701771683918'>
+                            <name>I grab text from all div .thumb-data-item--name</name>
+                            <title>I grab text from all div .thumb-data-item--name</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771683920' status='passed' stop='1701771683920'>
+                    <name>I assert true, true, "Duplicate Tag found"</name>
+                    <title>I assert true, true, "Duplicate Tag found"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1701771683947' status='passed' stop='1701771693527'>
+            <name>Validate diffent categories - Dream interpretation.</name>
+            <title>Validate diffent categories - Dream interpretation.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1701771684354' status='passed' stop='1701771692829'>
+                    <name>Given Launch the website and Select "DreamInterpretation" under Category with locatore refernce "/en/experts/dream+interpretation?selectedFilters=4" ""</name>
+                    <title>Given Launch the website and Select "DreamInterpretation" under Category with locatore refernce "/en/experts/dream+interpretation?selectedFilters=4" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771684354' status='passed' stop='1701771688075'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771688075' status='passed' stop='1701771689001'>
+                            <name>I click {xpath: (.//a[@href = '/en/experts/dream+interpretation?selectedFilters=4'])[position()=1]}</name>
+                            <title>I click {xpath: (.//a[@href = '/en/experts/dream+interpretation?selectedFilters=4'])[position()=1]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771689001' status='passed' stop='1701771692829'>
+                            <name>I wait for url "https://www.oranum.com/en/experts/dream+interpretation?selectedFilters=4"</name>
+                            <title>I wait for url "https://www.oranum.com/en/experts/dream+interpretation?selectedFilters=4"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771692829' status='passed' stop='1701771693312'>
+                    <name>Then Garb all the Category tags and verify if it contains the "DreamInterpretation" ""</name>
+                    <title>Then Garb all the Category tags and verify if it contains the "DreamInterpretation" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771692829' status='passed' stop='1701771693025'>
+                            <name>I wait for element div .thumb-data-willingness-list, 20</name>
+                            <title>I wait for element div .thumb-data-willingness-list, 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771693025' status='passed' stop='1701771693308'>
+                            <name>I grab text from all div .thumb-data-willingness-list</name>
+                            <title>I grab text from all div .thumb-data-willingness-list</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771693312' status='passed' stop='1701771693527'>
+                    <name>Then Garb all the Names and verify if it contains the does not contain duplicates ""</name>
+                    <title>Then Garb all the Names and verify if it contains the does not contain duplicates ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771693312' status='passed' stop='1701771693526'>
+                            <name>I grab text from all div .thumb-data-item--name</name>
+                            <title>I grab text from all div .thumb-data-item--name</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771693528' status='passed' stop='1701771693528'>
+                    <name>I assert true, true, "Duplicate Tag found"</name>
+                    <title>I assert true, true, "Duplicate Tag found"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1701771693548' status='passed' stop='1701771702765'>
+            <name>Validate diffent categories - Healing.</name>
+            <title>Validate diffent categories - Healing.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1701771694025' status='passed' stop='1701771701348'>
+                    <name>Given Launch the website and Select "Healing" under Category with locatore refernce "/en/experts/healing?selectedFilters=5" ""</name>
+                    <title>Given Launch the website and Select "Healing" under Category with locatore refernce "/en/experts/healing?selectedFilters=5" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771694025' status='passed' stop='1701771698308'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771698308' status='passed' stop='1701771699193'>
+                            <name>I click {xpath: (.//a[@href = '/en/experts/healing?selectedFilters=5'])[position()=1]}</name>
+                            <title>I click {xpath: (.//a[@href = '/en/experts/healing?selectedFilters=5'])[position()=1]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771699193' status='passed' stop='1701771701348'>
+                            <name>I wait for url "https://www.oranum.com/en/experts/healing?selectedFilters=5"</name>
+                            <title>I wait for url "https://www.oranum.com/en/experts/healing?selectedFilters=5"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771701348' status='passed' stop='1701771702365'>
+                    <name>Then Garb all the Category tags and verify if it contains the "Healing" ""</name>
+                    <title>Then Garb all the Category tags and verify if it contains the "Healing" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771701348' status='passed' stop='1701771701439'>
+                            <name>I wait for element div .thumb-data-willingness-list, 20</name>
+                            <title>I wait for element div .thumb-data-willingness-list, 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771701439' status='passed' stop='1701771702360'>
+                            <name>I grab text from all div .thumb-data-willingness-list</name>
+                            <title>I grab text from all div .thumb-data-willingness-list</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771702365' status='passed' stop='1701771702765'>
+                    <name>Then Garb all the Names and verify if it contains the does not contain duplicates ""</name>
+                    <title>Then Garb all the Names and verify if it contains the does not contain duplicates ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771702365' status='passed' stop='1701771702765'>
+                            <name>I grab text from all div .thumb-data-item--name</name>
+                            <title>I grab text from all div .thumb-data-item--name</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771702766' status='passed' stop='1701771702766'>
+                    <name>I assert true, true, "Duplicate Tag found"</name>
+                    <title>I assert true, true, "Duplicate Tag found"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1701771702787' status='passed' stop='1701771709950'>
+            <name>Validate diffent categories - Mediumship.</name>
+            <title>Validate diffent categories - Mediumship.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1701771703217' status='passed' stop='1701771709176'>
+                    <name>Given Launch the website and Select "Mediumship" under Category with locatore refernce "/en/experts/mediumship?selectedFilters=7" ""</name>
+                    <title>Given Launch the website and Select "Mediumship" under Category with locatore refernce "/en/experts/mediumship?selectedFilters=7" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771703217' status='passed' stop='1701771706943'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771706943' status='passed' stop='1701771707800'>
+                            <name>I click {xpath: (.//a[@href = '/en/experts/mediumship?selectedFilters=7'])[position()=1]}</name>
+                            <title>I click {xpath: (.//a[@href = '/en/experts/mediumship?selectedFilters=7'])[position()=1]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771707800' status='passed' stop='1701771709176'>
+                            <name>I wait for url "https://www.oranum.com/en/experts/mediumship?selectedFilters=7"</name>
+                            <title>I wait for url "https://www.oranum.com/en/experts/mediumship?selectedFilters=7"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771709176' status='passed' stop='1701771709751'>
+                    <name>Then Garb all the Category tags and verify if it contains the "Mediumship" ""</name>
+                    <title>Then Garb all the Category tags and verify if it contains the "Mediumship" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771709176' status='passed' stop='1701771709292'>
+                            <name>I wait for element div .thumb-data-willingness-list, 20</name>
+                            <title>I wait for element div .thumb-data-willingness-list, 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771709292' status='passed' stop='1701771709749'>
+                            <name>I grab text from all div .thumb-data-willingness-list</name>
+                            <title>I grab text from all div .thumb-data-willingness-list</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771709751' status='passed' stop='1701771709950'>
+                    <name>Then Garb all the Names and verify if it contains the does not contain duplicates ""</name>
+                    <title>Then Garb all the Names and verify if it contains the does not contain duplicates ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771709751' status='passed' stop='1701771709950'>
+                            <name>I grab text from all div .thumb-data-item--name</name>
+                            <title>I grab text from all div .thumb-data-item--name</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771709951' status='passed' stop='1701771709951'>
+                    <name>I assert true, true, "Duplicate Tag found"</name>
+                    <title>I assert true, true, "Duplicate Tag found"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1701771709975' status='passed' stop='1701771718024'>
+            <name>Validate diffent categories - Crystal ball.</name>
+            <title>Validate diffent categories - Crystal ball.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1701771710412' status='passed' stop='1701771717683'>
+                    <name>Given Launch the website and Select "CrystalBall" under Category with locatore refernce "/en/experts/crystal+ball?selectedFilters=8" ""</name>
+                    <title>Given Launch the website and Select "CrystalBall" under Category with locatore refernce "/en/experts/crystal+ball?selectedFilters=8" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771710412' status='passed' stop='1701771714270'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771714270' status='passed' stop='1701771715110'>
+                            <name>I click {xpath: (.//a[@href = '/en/experts/crystal+ball?selectedFilters=8'])[position()=1]}</name>
+                            <title>I click {xpath: (.//a[@href = '/en/experts/crystal+ball?selectedFilters=8'])[position()=1]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771715110' status='passed' stop='1701771717683'>
+                            <name>I wait for url "https://www.oranum.com/en/experts/crystal+ball?selectedFilters=8"</name>
+                            <title>I wait for url "https://www.oranum.com/en/experts/crystal+ball?selectedFilters=8"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771717683' status='passed' stop='1701771717925'>
+                    <name>Then Garb all the Category tags and verify if it contains the "CrystalBall" ""</name>
+                    <title>Then Garb all the Category tags and verify if it contains the "CrystalBall" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771717683' status='passed' stop='1701771717807'>
+                            <name>I wait for element div .thumb-data-willingness-list, 20</name>
+                            <title>I wait for element div .thumb-data-willingness-list, 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771717807' status='passed' stop='1701771717923'>
+                            <name>I grab text from all div .thumb-data-willingness-list</name>
+                            <title>I grab text from all div .thumb-data-willingness-list</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771717925' status='passed' stop='1701771718024'>
+                    <name>Then Garb all the Names and verify if it contains the does not contain duplicates ""</name>
+                    <title>Then Garb all the Names and verify if it contains the does not contain duplicates ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771717925' status='passed' stop='1701771718024'>
+                            <name>I grab text from all div .thumb-data-item--name</name>
+                            <title>I grab text from all div .thumb-data-item--name</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771718025' status='passed' stop='1701771718025'>
+                    <name>I assert true, true, "Duplicate Tag found"</name>
+                    <title>I assert true, true, "Duplicate Tag found"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1701771718053' status='passed' stop='1701771726311'>
+            <name>Validate diffent categories - Numerology.</name>
+            <title>Validate diffent categories - Numerology.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1701771718492' status='passed' stop='1701771724719'>
+                    <name>Given Launch the website and Select "Numerology" under Category with locatore refernce "/en/experts/numerology?selectedFilters=9" ""</name>
+                    <title>Given Launch the website and Select "Numerology" under Category with locatore refernce "/en/experts/numerology?selectedFilters=9" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771718492' status='passed' stop='1701771722711'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771722711' status='passed' stop='1701771723632'>
+                            <name>I click {xpath: (.//a[@href = '/en/experts/numerology?selectedFilters=9'])[position()=1]}</name>
+                            <title>I click {xpath: (.//a[@href = '/en/experts/numerology?selectedFilters=9'])[position()=1]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771723632' status='passed' stop='1701771724719'>
+                            <name>I wait for url "https://www.oranum.com/en/experts/numerology?selectedFilters=9"</name>
+                            <title>I wait for url "https://www.oranum.com/en/experts/numerology?selectedFilters=9"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771724719' status='passed' stop='1701771725898'>
+                    <name>Then Garb all the Category tags and verify if it contains the "Numerology" ""</name>
+                    <title>Then Garb all the Category tags and verify if it contains the "Numerology" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771724719' status='passed' stop='1701771725117'>
+                            <name>I wait for element div .thumb-data-willingness-list, 20</name>
+                            <title>I wait for element div .thumb-data-willingness-list, 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771725117' status='passed' stop='1701771725897'>
+                            <name>I grab text from all div .thumb-data-willingness-list</name>
+                            <title>I grab text from all div .thumb-data-willingness-list</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771725898' status='passed' stop='1701771726311'>
+                    <name>Then Garb all the Names and verify if it contains the does not contain duplicates ""</name>
+                    <title>Then Garb all the Names and verify if it contains the does not contain duplicates ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771725898' status='passed' stop='1701771726311'>
+                            <name>I grab text from all div .thumb-data-item--name</name>
+                            <title>I grab text from all div .thumb-data-item--name</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771726312' status='passed' stop='1701771726312'>
+                    <name>I assert true, true, "Duplicate Tag found"</name>
+                    <title>I assert true, true, "Duplicate Tag found"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1701771726335' status='passed' stop='1701771733567'>
+            <name>Validate diffent categories - Runes.</name>
+            <title>Validate diffent categories - Runes.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1701771726741' status='passed' stop='1701771732963'>
+                    <name>Given Launch the website and Select "Runes" under Category with locatore refernce "/en/experts/runes?selectedFilters=10" ""</name>
+                    <title>Given Launch the website and Select "Runes" under Category with locatore refernce "/en/experts/runes?selectedFilters=10" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771726741' status='passed' stop='1701771731004'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771731004' status='passed' stop='1701771732060'>
+                            <name>I click {xpath: (.//a[@href = '/en/experts/runes?selectedFilters=10'])[position()=1]}</name>
+                            <title>I click {xpath: (.//a[@href = '/en/experts/runes?selectedFilters=10'])[position()=1]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771732060' status='passed' stop='1701771732963'>
+                            <name>I wait for url "https://www.oranum.com/en/experts/runes?selectedFilters=10"</name>
+                            <title>I wait for url "https://www.oranum.com/en/experts/runes?selectedFilters=10"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771732963' status='passed' stop='1701771733479'>
+                    <name>Then Garb all the Category tags and verify if it contains the "Runes" ""</name>
+                    <title>Then Garb all the Category tags and verify if it contains the "Runes" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771732963' status='passed' stop='1701771733191'>
+                            <name>I wait for element div .thumb-data-willingness-list, 20</name>
+                            <title>I wait for element div .thumb-data-willingness-list, 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771733191' status='passed' stop='1701771733477'>
+                            <name>I grab text from all div .thumb-data-willingness-list</name>
+                            <title>I grab text from all div .thumb-data-willingness-list</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771733479' status='passed' stop='1701771733567'>
+                    <name>Then Garb all the Names and verify if it contains the does not contain duplicates ""</name>
+                    <title>Then Garb all the Names and verify if it contains the does not contain duplicates ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771733479' status='passed' stop='1701771733566'>
+                            <name>I grab text from all div .thumb-data-item--name</name>
+                            <title>I grab text from all div .thumb-data-item--name</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771733568' status='passed' stop='1701771733568'>
+                    <name>I assert true, true, "Duplicate Tag found"</name>
+                    <title>I assert true, true, "Duplicate Tag found"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1701771733598' status='passed' stop='1701771742350'>
+            <name>Validate diffent categories -  Palm reading.</name>
+            <title>Validate diffent categories -  Palm reading.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1701771733981' status='passed' stop='1701771741948'>
+                    <name>Given Launch the website and Select "PalmReading" under Category with locatore refernce "/en/experts/palm+reading?selectedFilters=11" ""</name>
+                    <title>Given Launch the website and Select "PalmReading" under Category with locatore refernce "/en/experts/palm+reading?selectedFilters=11" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771733981' status='passed' stop='1701771739371'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771739371' status='passed' stop='1701771740279'>
+                            <name>I click {xpath: (.//a[@href = '/en/experts/palm+reading?selectedFilters=11'])[position()=1]}</name>
+                            <title>I click {xpath: (.//a[@href = '/en/experts/palm+reading?selectedFilters=11'])[position()=1]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771740280' status='passed' stop='1701771741948'>
+                            <name>I wait for url "https://www.oranum.com/en/experts/palm+reading?selectedFilters=11"</name>
+                            <title>I wait for url "https://www.oranum.com/en/experts/palm+reading?selectedFilters=11"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771741948' status='passed' stop='1701771742220'>
+                    <name>Then Garb all the Category tags and verify if it contains the "PalmReading" ""</name>
+                    <title>Then Garb all the Category tags and verify if it contains the "PalmReading" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771741948' status='passed' stop='1701771742092'>
+                            <name>I wait for element div .thumb-data-willingness-list, 20</name>
+                            <title>I wait for element div .thumb-data-willingness-list, 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771742092' status='passed' stop='1701771742219'>
+                            <name>I grab text from all div .thumb-data-willingness-list</name>
+                            <title>I grab text from all div .thumb-data-willingness-list</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771742220' status='passed' stop='1701771742350'>
+                    <name>Then Garb all the Names and verify if it contains the does not contain duplicates ""</name>
+                    <title>Then Garb all the Names and verify if it contains the does not contain duplicates ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771742220' status='passed' stop='1701771742349'>
+                            <name>I grab text from all div .thumb-data-item--name</name>
+                            <title>I grab text from all div .thumb-data-item--name</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771742350' status='passed' stop='1701771742350'>
+                    <name>I assert true, true, "Duplicate Tag found"</name>
+                    <title>I assert true, true, "Duplicate Tag found"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1701771742369' status='passed' stop='1701771754997'>
+            <name>Validate diffent categories -  Energy work.</name>
+            <title>Validate diffent categories -  Energy work.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1701771742802' status='passed' stop='1701771754078'>
+                    <name>Given Launch the website and Select "EnergyWork" under Category with locatore refernce "/en/experts/energy+work?selectedFilters=12" ""</name>
+                    <title>Given Launch the website and Select "EnergyWork" under Category with locatore refernce "/en/experts/energy+work?selectedFilters=12" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771742802' status='passed' stop='1701771746743'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771746743' status='passed' stop='1701771748349'>
+                            <name>I click {xpath: (.//a[@href = '/en/experts/energy+work?selectedFilters=12'])[position()=1]}</name>
+                            <title>I click {xpath: (.//a[@href = '/en/experts/energy+work?selectedFilters=12'])[position()=1]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771748349' status='passed' stop='1701771754078'>
+                            <name>I wait for url "https://www.oranum.com/en/experts/energy+work?selectedFilters=12"</name>
+                            <title>I wait for url "https://www.oranum.com/en/experts/energy+work?selectedFilters=12"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771754078' status='passed' stop='1701771754589'>
+                    <name>Then Garb all the Category tags and verify if it contains the "EnergyWork" ""</name>
+                    <title>Then Garb all the Category tags and verify if it contains the "EnergyWork" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771754078' status='passed' stop='1701771754135'>
+                            <name>I wait for element div .thumb-data-willingness-list, 20</name>
+                            <title>I wait for element div .thumb-data-willingness-list, 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771754135' status='passed' stop='1701771754584'>
+                            <name>I grab text from all div .thumb-data-willingness-list</name>
+                            <title>I grab text from all div .thumb-data-willingness-list</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771754589' status='passed' stop='1701771754997'>
+                    <name>Then Garb all the Names and verify if it contains the does not contain duplicates ""</name>
+                    <title>Then Garb all the Names and verify if it contains the does not contain duplicates ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771754589' status='passed' stop='1701771754996'>
+                            <name>I grab text from all div .thumb-data-item--name</name>
+                            <title>I grab text from all div .thumb-data-item--name</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771754998' status='passed' stop='1701771754998'>
+                    <name>I assert true, true, "Duplicate Tag found"</name>
+                    <title>I assert true, true, "Duplicate Tag found"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1701771755019' status='passed' stop='1701771762127'>
+            <name>Validate diffent categories - Crystals.</name>
+            <title>Validate diffent categories - Crystals.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1701771755454' status='passed' stop='1701771761593'>
+                    <name>Given Launch the website and Select "Crystals" under Category with locatore refernce "/en/experts/crystals?selectedFilters=6" ""</name>
+                    <title>Given Launch the website and Select "Crystals" under Category with locatore refernce "/en/experts/crystals?selectedFilters=6" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771755454' status='passed' stop='1701771759571'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771759571' status='passed' stop='1701771760465'>
+                            <name>I click {xpath: (.//a[@href = '/en/experts/crystals?selectedFilters=6'])[position()=1]}</name>
+                            <title>I click {xpath: (.//a[@href = '/en/experts/crystals?selectedFilters=6'])[position()=1]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771760465' status='passed' stop='1701771761593'>
+                            <name>I wait for url "https://www.oranum.com/en/experts/crystals?selectedFilters=6"</name>
+                            <title>I wait for url "https://www.oranum.com/en/experts/crystals?selectedFilters=6"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771761593' status='passed' stop='1701771762026'>
+                    <name>Then Garb all the Category tags and verify if it contains the "Crystals" ""</name>
+                    <title>Then Garb all the Category tags and verify if it contains the "Crystals" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771761594' status='passed' stop='1701771761787'>
+                            <name>I wait for element div .thumb-data-willingness-list, 20</name>
+                            <title>I wait for element div .thumb-data-willingness-list, 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1701771761788' status='passed' stop='1701771762024'>
+                            <name>I grab text from all div .thumb-data-willingness-list</name>
+                            <title>I grab text from all div .thumb-data-willingness-list</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771762026' status='passed' stop='1701771762127'>
+                    <name>Then Garb all the Names and verify if it contains the does not contain duplicates ""</name>
+                    <title>Then Garb all the Names and verify if it contains the does not contain duplicates ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1701771762026' status='passed' stop='1701771762126'>
+                            <name>I grab text from all div .thumb-data-item--name</name>
+                            <title>I grab text from all div .thumb-data-item--name</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1701771762128' status='passed' stop='1701771762128'>
+                    <name>I assert true, true, "Duplicate Tag found"</name>
+                    <title>I assert true, true, "Duplicate Tag found"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

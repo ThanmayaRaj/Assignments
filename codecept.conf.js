@@ -4,7 +4,7 @@ exports.config = {
     Playwright: {
       browser: 'firefox',
       url: 'https://www.oranum.com',
-      show: true
+      show: false
     },
     AssertWrapper: {
       require: 'codeceptjs-assert'

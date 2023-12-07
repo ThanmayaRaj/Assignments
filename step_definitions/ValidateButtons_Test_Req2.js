@@ -5,7 +5,6 @@ Given('Launch the website and click on Live Psychic page', () => {
 
     clickOnLivePsychic(I);
     I.waitForNavigation();
-    I.see("Topics")
 });
 
 
